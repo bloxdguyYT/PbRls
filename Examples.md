@@ -13,7 +13,7 @@ globalThis.lbNtConfig = {
         sort: "highest",
         pos: pos,
         topPC: 3,
-    },
+    }
 };
 pos = [-12.5, 4, 14.5];                                        // Changes the Position of the NPC Leaderboard
 globalThis.lbStageConfig = {
@@ -29,7 +29,7 @@ globalThis.lbStageConfig = {
         p1: pos,
         p2: [pos[0]-3, pos[1]-1, pos[2]],
         p3: [pos[0]+3, pos[1]-2, pos[2]],
-    },
+    }
 };
 
 tick = () => { pr.lbTick(); }
