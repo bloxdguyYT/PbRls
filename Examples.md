@@ -1,5 +1,4 @@
-<details>
-<summary>Rank Players by the Amount of Gold Coins</summary>
+# Rank Players by the Amount of Gold Coins
 ```js
 import * as pr from "./PbRls.ts";
 const value = api.getInventoryItemAmount(pId,"Gold Coin");    // Changes what players are ranked for
@@ -35,4 +34,3 @@ globalThis.lbStageConfig = {
 
 tick = () => { pr.lbTick(); }
 ```
-</details>
